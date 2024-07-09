@@ -204,7 +204,7 @@ h1.navbar-brand {
 }
 
 .subscribe {
-    background: url("/images/footer-banner.jpg");
+    background: url("../images/footer-banner.jpg");
     background-size: cover;
     background-position: center center;
     height: 600px;
