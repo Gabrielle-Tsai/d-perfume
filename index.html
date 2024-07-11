@@ -7,22 +7,23 @@
     <link rel="stylesheet" href="stylesheets/reset.css">
     <link rel="stylesheet" href="stylesheets/bootstrap-5.3.3/dist/css/bootstrap.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/layout.css">
     <link rel="stylesheet" href="stylesheets/index.css">
 </head>
 <body>
-    <header class="container-lg px-0">
+    <div class="container-lg px-0">
         <nav class="navbar navbar-expand-lg bg-white py-0 px-0">
-            <a href="#" class="order-1">
+            <a href="index.html" class="order-1">
                 <h1 class="navbar-brand mb-0 ms-2">D'Perfume</h1>
             </a>
             <button class="navbar-toggler order-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse order-4 order-lg-2" id="navbarNav">
+            <div class="collapse navbar-collapse order-4 order-lg-2 navbarNav" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item me-4">
-                        <a class="nav-link active" aria-current="page" href="product.html"><span class="d-none d-lg-inline material-icons icon">store</span>Product</a>
+                        <a class="nav-link" aria-current="page" href="product.html"><span class="d-none d-lg-inline material-icons icon">store</span>Product</a>
                     </li>
                     <li class="nav-item d-block d-lg-none">
                         <a href="#" class="nav-link">Blog</a>
@@ -47,9 +48,9 @@
                 </a>
             </div>
         </nav>
-    </header>
+    </div>
 
-    <section class="container-fluid px-0 mb-6">
+    <header class="container-fluid px-0 mb-6">
         <div class="banner">
             <div class="container mx-auto d-flex justify-content-end align-items-center h-100">
                 <div class="intro ms-auto text-white">
@@ -60,7 +61,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
     <section class="container px-lg-0 mb-6">
         <div class="row flex-md-row-reverse g-0">
@@ -120,13 +121,13 @@
                     <h3 class="fw-bold">3.<br>Critical percentage of planned maintenance</h3>
                     <p class="mb-5">Calculating the critical percentage of planned maintenance will help you prioritize the most important operations that
                     should be performed immediately.</p>
-                    <button class="btn btn-outline-dark rounded-pill border-2" id="training-btn">Plan a free online training</button>
+                    <button class="btn btn-outline-dark rounded-pill border-2 training-btn">Plan a free online training</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container-fluid bg-gray mb-6" id="product-recommend">
+    <section class="container-fluid bg-gray mb-6 product-recommend">
         <div class="container py-4">
             <div class="row row-cols-1 row-cols-lg-3">
                 <div class="col">
@@ -187,10 +188,10 @@
         <div class="container h-100">
             <div class="d-flex flex-column justify-content-end h-100">
                 <h2 class="subscribe-title">記得<br>訂閱以獲取更多資訊！</h2>
-                <div class="input-group mb-3" id="subscribe-form">
+                <div class="input-group mb-3 subscribe-form">
                     <input type="text" class="form-control border border-2 border-primary rounded-start p-3" placeholder="Your email address" aria-label="Your email address"
                         aria-describedby="button-addon2">
-                    <button class="btn btn-primary text-white rounded-end" type="button" id="subscribe-btn">Subscribe</button>
+                    <button class="btn btn-primary text-white rounded-end" type="button subscribe-btn">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -199,9 +200,9 @@
     <footer class="bg-primary py-3 px-0">
         <div class="container d-flex justify-content-between">
             <div class="d-flex align-items-center">
-                <a class="navbar-brand" href="#"><img src="images/d’Perfumew.png" alt="D'Perfume Logo" class="align-text-inherit"></a><span class="ms-2 text-white text-sm">© 2020. All Rights Reserved.</span>
+                <a class="navbar-brand" href="index.html"><img src="images/d’Perfumew.png" alt="D'Perfume Logo" class="align-text-inherit"></a><span class="ms-2 text-white text-sm">© 2020. All Rights Reserved.</span>
             </div>
-            <div class="d-none d-md-flex align-items-center" id="navbarNav">
+            <div class="d-none d-md-flex align-items-center">
                 <ul class="list-group list-group-horizontal">
                     <li><a href="#" class="link-white text-decoration-none me-4">Product</a></li>
                     <li><a href="#" class="link-white text-decoration-none me-4">Blog</a></li>
